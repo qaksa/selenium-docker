@@ -1,0 +1,738 @@
+Install Subl in Ubuntu
+-------------------------
+add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+apt-get install sublime-text-installer
+subl
+Install Package Control
+install package
+subl
+
+
+docker ps -a 
+docker images 
+
+docker vesion
+docker version
+docker-compose version
+
+docker run -it alpine
+docker run -itd alpine
+1032  docker exec -it nervous_hawking
+docker exec -it nervous_hawking /bin/sh
+
+docker rm nervous_hawking elegant_solomon
+
+docker run -p 9090:80 nginx 
+docker ps -a 
+docker run -p 9090:80 -d nginx
+docker logs <containername>
+docker stop <containername>
+
+
+ 1082  docker run -it -v /home/shoeb/Documents/docker-prac:/abc alpine
+ 1083  docker ps -a
+ 1084  docker rm elated_ardinghelli 
+ 1085  docker ps -a
+ 1086  docker images
+ 1087  docker run -d --name=nginx
+ 1088  docker run -d --name=nginx nginx
+ 1089  docker ps -a
+ 1090  docker ps -a 
+ 1091  docker run -it alpine
+ 1092  docker ps -a 
+ 1093  ll
+ 1094  subl Dockerfile 
+ 1095  rm -rf Test.class 
+ 1096  ll
+ 1097  docker build -t qaksa/hello-docworld .
+ 1098  docker images
+ 1099  docker build -t=qaksa/hello-docworld .
+ 1100  ll
+ 1101  docker build -t=ksashoeb/hello-docworld .
+ 1102  docker images
+ 1103  docker run -it ksashoeb/hello-docworld
+ 1104  docker run -it ksashoeb/hello-docworld --entrypoint=/bin/sh
+ 1105  docker run -it ksashoeb/hello-docworld --entry=/bin/sh
+ 1106  docker ps -a 
+ 1107  docker rm adoring_saha kind_kirch adoring_mirzakhani cool_mahavira exciting_hertz exciting_bartik relaxed_curie 
+ 1108  docker ps -a 
+ 1109  docker ps 
+ 1110  docker images
+ 1111  ll
+ 1112  docker ps 
+ 1113  docker run -it --entrypoint=/bin/sh ksashoeb/hello-docworld
+ 1114  docker ps -a
+ 1115  docker rm wonderful_galois 
+ 1116  docker ps -a
+ 1117  docker iamges
+ 1118  docker images
+ 1119  ll
+ 1120  subl Test.java 
+ 1121  javac Test.java 
+ 1122  java Test 
+ 1123  java Test 4
+ 1124  java Test 6
+ 1125  ll
+ 1126  rm -rf Test.class 
+ 1127  ll
+ 1128  docker build -t=ksashoeb/square .
+ 1129  docker run ksashoeb/square
+ 1130  docker build -t=ksashoeb/square .
+ 1131  docker run ksashoeb/square
+ 1132  docker run -e Number=5 ksashoeb/square
+ 1133  docker run -e NUMBER=5 ksashoeb/square
+ 1134  docker run -e NUMBER=15 ksashoeb/square
+ 1135  LL
+ 1136  ll
+ 1137  subl Test.java 
+ 1138  docker iamges 
+ 1139  docker iamge
+ 1140  docker images
+ 1141  docker rm 6474e1a5ee47
+ 1142  docker images 
+ 1143  docker image rm 6474e1a5ee47
+ 1144  docker ps -a 
+ 1145  docker rm confident_grothendieck beautiful_brattain  jolly_galileo  eager_elion  peaceful_tereshkova 
+ 1146  docker ps -a 
+ 1147  docker images
+ 1148  docker image rm 6474e1a5ee47
+ 1149  docker ps -a 
+ 1150  docker images 
+ 1151  docker run ksashoeb/hello-docworld
+ 1152  docker run -it ksashoeb/hello-docworld
+ 1153  docker run -it --entrypoint=/bin/sh ksashoeb/hello-docworld
+ 1154  docker run -it  ksashoeb/hello-docworld --entrypoint=/bin/sh
+ 1155  docker -ps -a 
+ 1156  docker ps -a
+ 1157  docker images
+ 1158  docker run ksashoeb/square
+ 1159  docker run -e NUMBER=5 ksashoeb/square
+ 1160  docker run -e NUMBER=25 ksashoeb/square
+ 1161  docker ps -a
+ 1162  docker rm boring_yonath recursing_newton ecstatic_hugle serene_goldberg hungry_cori zealous_austin interesting_clarke 
+ 1163  docker ps -a
+ 1164  docker ps -a 
+ 1165  docker login
+ 1166  docker push ksashoeb/square
+ 1167  ll
+ 1168  docker ps 
+ 1169  docker tag ksashoeb/square:latest tag ksashoeb/square:rock
+ 1170  docker tag ksashoeb/square:latest ksashoeb/square:rock
+ 1171  docker images
+ 1172  docker push ksashoeb/square:rock
+ 1173  exit
+ 1174  cd /home/shoeb/Documents/docker-prac/
+ 1175  ll
+ 1176  cd a/
+ 1177  ll
+ 1178  vim abc.txt 
+ 1179  cat abc.txt 
+ 1180  vim xyz.txt
+ 1181  ll
+ 1182  docker ps -a 
+ 1183  docker stop nginx 
+ 1184  docker ps -a
+ 1185  docker network create udemy-net
+ 1186  docker network
+ 1187  docker network ls
+ 1188  docker ps -a
+ 1189  docker rm nginx 
+ 1190  docker ps -a 
+ 1191  docker rm reverent_banzai 
+ 1192  docker ps -a 
+ 1193  docker network ls 
+ 1194  docker run -d --name=nginx --network=udemy-net nginx
+ 1195  docker ps -a 
+ 1196  docker ps -a
+ 1197  docker stop nginx 
+ 1198  docker rm nginx 
+ 1199  docker ps -a 
+ 1200  docker ps -a
+ 1201  docker run -d --name=nginx --network=udemy-net -p 9090:80 nginx 
+ 1202  docker ps -a 
+ 1203  docker logs nginx 
+ 1204  docker log nginx 
+ 1205  docker logs nginx 
+ 1206  docker ps -a 
+ 1207  docker run -it --network=udemy-net alpine
+ 1208  docker ps -a 
+ 1209  docker stop nginx 
+ 1210  docker ps -a 
+ 1211  docker rm goofy_taussig 
+ 1212  docker rm nginx 
+ 1213  docker ps -a
+ 1214  cd ..
+ 1215  ll
+ 1216  rm -rf a/
+ 1217  ll
+ 1218  subl Test.java
+ 1219  ll
+ 1220  javac Test.java 
+ 1221  java Test
+ 1222  ll
+ 1223  docker ps -a 
+ 1224  docker images
+ 1225  subl Dockerfile
+ 1226  ll
+ 1227  docker run -it alpine
+ 1228  ll
+ 1229  exit
+ 1230  ll
+ 1231  cd /home/shoeb/
+ 1232  ll
+ 1233  cd Documents/
+ 1234  ll
+ 1235  cd docker-prac/
+ 1236  ll
+ 1237  subl Dockerfile 
+ 1238  docker build -t=ksashoeb/square .
+ 1239  docker images
+ 1240  docker ps -a 
+ 1241  docker ps 
+ 1242  docker iamages
+ 1243  docker images
+ 1244  docker run -it alpine
+ 1245  docker ps -a 
+ 1246  docker rm funny_heisenberg 
+ 1247  docker ps -a
+ 1248  docker ps -a 
+ 1249  ll
+ 1250  cd ..
+ 1251  ll
+ 1252  mkdir docker-practice
+ 1253  cd docker-prac
+ 1254  cd ../docker-practice/
+ 1255  ll
+ 1256  docker run -d -p=8090:80 
+ 1257  docker run -d -p=8090:80 nginx
+ 1258  docker ps -a 
+ 1259  docker logs eloquent_villani 
+ 1260  docker ps -a
+ 1261  docker run -it alpine
+ 1262  docker ps -a 
+ 1263  docker run -itd alpine
+ 1264  docker ps -a 
+ 1265  docker exec focused_chatterjee /bin/sh
+ 1266  docker -it --exec=/bin/sh focused_chatterjee 
+ 1267  docker -it exec=/bin/sh focused_chatterjee 
+ 1268  docker exec=/bin/sh focused_chatterjee 
+ 1269  docker ps -a 
+ 1270  docker exec -it focused_chatterjee /bin/sh
+ 1271  docker ps -a
+ 1272  docker exec -it focused_chatterjee /bin/sh
+ 1273  docker ps -a 
+ 1274  docker stop focused_chatterjee eloquent_villani 
+ 1275  docker ps -a 
+ 1276  docker rm focused_chatterjee optimistic_mirzakhani eloquent_villani 
+ 1277  docker ps -a
+ 1278  docker ps 
+ 1279  docker ps -a
+ 1280  docker network
+ 1281  docker network ls
+ 1282  docker network create rock-net
+ 1283  docker network ls
+ 1284  docker ps -a 
+ 1285  docker run -d --name=nginx -p=9090:80 --network=rock-net nginx
+ 1286  docker ps -a 
+ 1287  docker logs nginx 
+ 1288  docker ps -a 
+ 1289  docker run -it --network=rock-net alpine
+ 1290  docker ps -a 
+ 1291  docker network ls 
+ 1292  docker network 
+ 1293  dockes ps -a 
+ 1294  docker ps -a 
+ 1295  docker stop nginx 
+ 1296  docker ps -a 
+ 1297  docker rm youthful_keldysh nginx 
+ 1298  docker ps -a 
+ 1299  docker images 
+ 1300  ll
+ 1301  docker ps 
+ 1302  ll
+ 1303  docker ps -a
+ 1304  ll
+ 1305  subl Test.java
+ 1306  javac Test.java 
+ 1307  java Test
+ 1308  javac Test.java 
+ 1309  java Test
+ 1310  ls -la
+ 1311  rm -rf Test.class 
+ 1312  ll
+ 1313  pwd
+ 1314  docker run -itd -v=/home/shoeb/Documents/docker-practice:/abc alpine
+ 1315  docker ps -a 
+ 1316  ll
+ 1317  cd xy/
+ 1318  echo "Hello FIle " > abc.txt
+ 1319  ll
+ 1320  cat abc.txt 
+ 1321  ll
+ 1322  docker ps -a
+ 1323  docker stop amazing_brown 
+ 1324  docker ps -a
+ 1325  docker start amazing_brown 
+ 1326  docke ps -a 
+ 1327  docker ps -a 
+ 1328  docker exec -it amazing_brown /bin/sh
+ 1329  docker ps -a 
+ 1330  docker stop amazing_brown 
+ 1331  docker ps -a 
+ 1332  docker rm amazing_brown 
+ 1333  docker ps -a 
+ 1334  docker ps 
+ 1335  subl Dockerfile
+ 1336  cd ..
+ 1337  ll
+ 1338  mv xy/Dockerfile .
+ 1339  ll
+ 1340  rm -rf xy/
+ 1341  ll
+ 1342  subl Dockerfile 
+ 1343  cd ..
+ 1344  ll
+ 1345  docker push ksashoeb/square
+ 1346  docker tag ksashoeb/square:rock ksashoeb/square:lion
+ 1347  docker images
+ 1348  docker image rm 1b1bdee8dc3a
+ 1349  docker image
+ 1350  docker images\
+ 1351  docker images
+ 1352  docker ps -a 
+ 1353  docker rm 1b1bdee8dc3a
+ 1354  docker image rm 1b1bdee8dc3a
+ 1355  docker image rmi ksashoeb/square:lion 
+ 1356  docker images
+ 1357  exit
+ 1358  docker ps -a 
+ 1359  docker exec amazing_brown /bin/sh
+ 1360  docker exec -it amazing_brown /bin/sh
+ 1361  ll
+ 1362  cd /home/shoeb/Documents/
+ 1363  ll
+ 1364  cd docker-selenium/
+ 1365  ll
+ 1366  subl docker-compose.yml
+ 1367  java -version
+ 1368  javac -version
+ 1369  /opt/apps/jvm/
+ 1370  cd /opt/apps/jvm/
+ 1371  ll
+ 1372  whereis java
+ 1373  ll
+ 1374  history 
+ 1375  cd /home/shoeb/
+ 1376  ll
+ 1377  cd Documents/
+ 1378  ll
+ 1379  cd docker-prac
+ 1380  ll
+ 1381  cd ..
+ 1382  cd docker-practice/
+ 1383  ll
+ 1384  cd ..
+ 1385  ll
+ 1386  cd ksa/
+ 1387  ll
+ 1388  cd selenium-docker/
+ 1389  ll
+ 1390  cd src/
+ 1391  ll
+ 1392  cd test/
+ 1393  ll
+ 1394  cd java/
+ 1395  ll
+ 1396  cd com/
+ 1397  ll
+ 1398  cd udemy/
+ 1399  ll
+ 1400  cd selenium/
+ 1401  ll
+ 1402  cd docker/
+ 1403  ll
+ 1404  cd selenium_docker/
+ 1405  ll
+ 1406  cd ../../..
+ 1407  cd ..
+ 1408  ll
+ 1409  cd ..
+ 1410  ll
+ 1411  cd ..
+ 1412  ll
+ 1413  cd ..
+ 1414  ll
+ 1415  cd ..
+ 1416  ll
+ 1417  cd ..
+ 1418  ll
+ 1419  cd selenium-docker/
+ 1420  ll
+ 1421  cd src/
+ 1422  cd test/java/com/udemy/selenium/docker/selenium_docker/
+ 1423  ll
+ 1424  cd /home/shoeb/
+ 1425  ll
+ 1426  cd Do
+ 1427  cd Documents/
+ 1428  ll
+ 1429  cd KSA/
+ 1430  ll
+ 1431  cd eclipse/
+ 1432  ll
+ 1433  cd ../..
+ 1434  ll
+ 1435  process chrome
+ 1436  pkill chrome
+ 1437  cd /home/shoeb/Documents/
+ 1438  ll
+ 1439  cd docker-selenium/
+ 1440  ll
+ 1441  docker images
+ 1442  ll
+ 1443  docker ps
+ 1444  docker ps -a 
+ 1445  docker-compose up
+ 1446  docker ps -a 
+ 1447  cd /home/shoeb/Documents/docker-selenium/
+ 1448  ll
+ 1449  docker-compose down
+ 1450  cd /home/shoeb/Documents/docker-selenium/
+ 1451  ll
+ 1452  docker ps -a 
+ 1453  docker-compose up
+ 1454  cd /home/shoeb/Documents/docker-selenium/
+ 1455  docker ps -a
+ 1456  docker-compose down
+ 1457  pkill firefox
+ 1458  pkill selenium
+ 1459  launchctl list | grep webdriver
+ 1460  docker-compose down
+ 1461  ll
+ 1462  docker images
+ 1463  docker pull selenium/hub:3.141.59
+ 1464  docker pull selenium/hub:3.14
+ 1465  docker images
+ 1466  ll
+ 1467  subl docker-compose.yml 
+ 1468  docker images
+ 1469  docker ps -a 
+ 1470  docker-compose down
+ 1471  docker ps -a 
+ 1472  docker-compose down
+ 1473  subl docker-compose.yml 
+ 1474  docker-compose up
+ 1475  cd /tmp/videos/
+ 1476  ll
+ 1477  docker stop zalenium
+ 1478  ll
+ 1479  dash dashboard.html 
+ 1480  dashboard.html 
+ 1481  cd /home/shoeb/Documents/docker-selenium/
+ 1482  ll
+ 1483  docker-compose up
+ 1484  ll
+ 1485  docker-compose up
+ 1486  docker ps -a 
+ 1487  docker-compose down
+ 1488  docker ps -a 
+ 1489  docker images
+ 1490  docker run --rm -ti --name zalenium -p 4444:4444       -v /var/run/docker.sock:/var/run/docker.sock       -v /tmp/videos:/home/seluser/videos       --privileged dosel/zalenium start
+ 1491  cd /home/shoeb/Documents/
+ 1492  ll
+ 1493  cd docker-selenium/
+ 1494  ll
+ 1495  subl docker-compose.yml 
+ 1496  mvn --version
+ 1497  mvn -version
+ 1498  apt update
+ 1499  apt install maven
+ 1500  java -version
+ 1501  javac -version
+ 1502  apt-get install maven
+ 1503  java -version
+ 1504  javac -version
+ 1505  mvn --version
+ 1506  ll
+ 1507  mvn clean package -DskipTests
+ 1508  cd selenium-docker-master/
+ 1509  ll
+ 1510  cd ..
+ 1511  ll
+ 1512  cd ..
+ 1513  ll
+ 1514  cd docker-selenium/
+ 1515  ll
+ 1516  mvn clean package -DskipTests
+ 1517  cd com.telecom/
+ 1518  ll
+ 1519  mvn clean package -DskipTests
+ 1520  ll
+ 1521  mvn clean package -DskipTests
+ 1522  ll
+ 1523  cd target/
+ 1524  ll
+ 1525  java -cp com.telecom-0.0.1-SNAPSHOT.jar org.testng.TestNG ../testNG.xml 
+ 1526  java -cp com.telecom-0.0.1-SNAPSHOT.jar ../testNG.xml 
+ 1527  ll
+ 1528  cd ..
+ 1529  ll
+ 1530  mvn clean package -DskipTests
+ 1531  ll
+ 1532  cd target/
+ 1533  ll
+ 1534  cd classes/
+ 1535  ll
+ 1536  cd com/
+ 1537  ll
+ 1538  cd telecom/
+ 1539  ll
+ 1540  cd pages/
+ 1541  ll
+ 1542  cd ../../..
+ 1543  cd ..
+ 1544  ll
+ 1545  java -jar com.telecom-0.0.1-SNAPSHOT.jar 
+ 1546  cd /home/shoeb/Documents/
+ 1547  ll
+ 1548  cd docker-selenium/
+ 1549  ll
+ 1550  cd ..
+ 1551  ll
+ 1552  docker run --rm -ti --name zalenium -p 4444:4444       -v /var/run/docker.sock:/var/run/docker.sock       -v /tmp/videos:/home/seluser/videos       --privileged dosel/zalenium start
+ 1553  cd /home/shoeb/Documents/
+ 1554  ll
+ 1555  cd docker-selenium/
+ 1556  ll
+ 1557  cd sele-docker/
+ 1558  ll
+ 1559  cd target/
+ 1560  ll
+ 1561  cd ..
+ 1562  ll
+ 1563  mvn clean package -DskipTests
+ 1564  ll
+ 1565  cd target/
+ 1566  ll
+ 1567  java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG ../testNG.xml 
+ 1568  ll /tmp/videos/
+ 1569  docker run --rm -ti --name zalenium -p 4444:4444       -v /var/run/docker.sock:/var/run/docker.sock       -v /tmp/videos:/home/seluser/videos       --privileged dosel/zalenium start
+ 1570  cd /home/shoeb/Documents/
+ 1571  cd docker-
+ 1572  cd docker-selenium/
+ 1573  ll
+ 1574  cd sele-docker/
+ 1575  ll
+ 1576  mvn clean package -DskipTests
+ 1577  ll
+ 1578  cd target/
+ 1579  ll
+ 1580  date
+ 1581  mvn -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG ../testNG.xml
+ 1582  java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG ../testNG.xml
+ 1583  java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=firefox org.testng.TestNG ../testNG.xml
+ 1584  java -version
+ 1585  docker images
+ 1586  java -versio
+ 1587  java -version
+ 1588  ll
+ 1589  cd ..
+ 1590  ll
+ 1591  cd target/
+ 1592  ll
+ 1593  java -version
+ 1594  cd ..
+ 1595  ll
+ 1596  subl Dockerfile
+ 1597  ll
+ 1598  cd target/
+ 1599  ll
+ 1600  cd ..
+ 1601  ll
+ 1602  docker run --rm -ti --name zalenium -p 4444:4444       -v /var/run/docker.sock:/var/run/docker.sock       -v /tmp/videos:/home/seluser/videos       --privileged dosel/zalenium start
+ 1603  cd /home/shoeb/Documents/
+ 1604  ll
+ 1605  cd docker-selenium/
+ 1606  ll
+ 1607  cd sele-docker/
+ 1608  ll
+ 1609  subl Dockerfile 
+ 1610  history
+ 1611  ll
+ 1612  docker images
+ 1613  docker build -t=ksashoeb/docker-selenium .
+ 1614  docker -version
+ 1615  docker --version
+ 1616  docker build -t=ksashoeb/docker-selenium .
+ 1617  docker images
+ 1618  docker run -it entrypoint=/bin/sh
+ 1619  docker run -it entrypoint=/bin/sh ksashoeb/docker-selenium
+ 1620  docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+ 1621  ll
+ 1622  subl Dockerfile 
+ 1623  docker build -t=ksashoeb/docker-selenium .
+ 1624  docker ps -a
+ 1625  docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+ 1626  ll
+ 1627  docker ps -a 
+ 1628  docker rm loving_feistel beautiful_morse 
+ 1629  docker ps -a 
+ 1630  docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+ 1631  docker run -it --entrypoint=/bin/sh -v/home/shoeb/Documents/docker-selenium/sele-docker/home/shoeb/Documents/docker-selenium/sele-docker/output:test-output ksashoeb/docker-selenium
+ 1632  docker run -it --entrypoint=/bin/sh docker-v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa/test-output ksashoeb/docker-selenium
+ 1633  docker run -e HUB_HOST=172.19.0.1 ksashoeb/docker-selenium
+ 1634  ll
+ 1635  docker build -t=ksashoeb/docker-selenium .
+ 1636  docker run -e HUB_HOST=172.19.0.1 ksashoeb/docker-selenium
+ 1637  docker run -e HUB_HOST=172.19.0.1 testNG.xml ksashoeb/docker-selenium
+ 1638  docker run -e HUB_HOST=172.19.0.1 -e testNG.xml ksashoeb/docker-selenium
+ 1639  ocker run -e HUB_HOST=172.19.0.1 -e MODULE=testNG.xml ksashoeb/docker-selenium
+ 1640  docker run -e HUB_HOST=172.19.0.1 -e MODULE=testNG.xml ksashoeb/docker-selenium
+ 1641  docker build -t=ksashoeb/docker-selenium .
+ 1642  docker run -e HUB_HOST=172.19.0.1 -e MODULE=testNG.xml ksashoeb/docker-selenium
+ 1643  docker ps -a 
+ 1644  docker stop zalenium
+ 1645  docker ps -a 
+ 1646  docker rm nice_leavitt jovial_bohr nostalgic_mestorf affectionate_albattani jovial_goldwasser boring_shirley romantic_morse 
+ 1647  docker ps -a 
+ 1648  exit
+ 1649  ll
+ 1650  history
+ 1651  cd /home/shoeb/Documents/docker-selenium/sele-docker
+ 1652  ll
+ 1653  ls -la
+ 1654  cd output/
+ 1655  ls -la
+ 1656  ifconfig
+ 1657  exit
+ 1658  docker run --rm -ti --name zalenium -p 4444:4444       -v /var/run/docker.sock:/var/run/docker.sock       -v /tmp/videos:/home/seluser/videos       --privileged dosel/zalenium start
+ 1659  exit
+ 1660  cd /home/shoeb/Documents/
+ 1661  cd docker-selenium/sele-docker/
+ 1662  subl Dockerfile 
+ 1663  java -version
+ 1664  javac -version
+ 1665  echo $PATH
+ 1666  echo $JAVA_HOME
+ 1667  echo $JRE_HOME
+ 1668  java -version
+ 1669  javac -verion
+ 1670  javac -version
+ 1671  javac -verion
+ 1672  java -version
+ 1673  ll
+ 1674  cd target/
+ 1675  ll
+ 1676  cd ..
+ 1677  ll
+ 1678  docker ps -a 
+ 1679  docker-compose down
+ 1680  cd /home/shoeb/Documents/docker-selenium/sele-docker/
+ 1681  ll
+ 1682  docker-compose down
+ 1683  docker ps -a 
+ 1684  ll
+ 1685  docker images 
+ 1686  docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+ 1687  docker ps -a 
+ 1688  ll
+ 1689  rm -rf output/
+ 1690  pwd
+ 1691  docker run -it --entrypoint=/bin/sh -v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa ksashoeb/docker-selenium
+ 1692  docker run -it --entrypoint=/bin/sh -v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa/test-output ksashoeb/docker-selenium
+ 1693  docker run -it --entrypoint=/bin/sh -DHUB_HOST=172.19.0.1 -v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa/test-output ksashoeb/docker-selenium
+ 1694  docker run -it --entrypoint=/bin/sh -e HUB_HOST=172.19.0.1 -v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa/test-output ksashoeb/docker-selenium
+ 1695  docker run -it --entrypoint=/bin/sh -v /home/shoeb/Documents/docker-selenium/sele-docker/output:/usr/share/ksa/test-output ksashoeb/docker-selenium
+ 1696  cd /home/shoeb/Documents/docker-selenium/sele-docker/
+ 1697  ll
+ 1698  cd output/
+ 1699  ll
+ 1700  ifconfig
+ 1701  cd /home/shoeb/
+ 1702  ll
+ 1703  cd Documents/
+ 1704  ll
+ 1705  cd docker-selenium/
+ 1706  ll
+ 1707  cd sele-docker/
+ 1708  ll
+ 1709  cd output/
+ 1710  ll
+ 1711  cd ..
+ 1712  ll
+ 1713  subl Dockerfile 
+ 1714  ll
+ 1715  docker images
+ 1716  docker rm 35a242c22bb5
+ 1717  docker ps -a 
+ 1718  docker image 
+ 1719  docker image rm 35a242c22bb5
+ 1720  docker images
+ 1721  docker image rm 1188b781fcb9 f15586cbde7a
+ 1722  docker images 
+ 1723  cd ..
+ 1724  ll
+ 1725  cd docker-selenium/
+ 1726  ll
+ 1727  cd ..
+ 1728  ll
+ 1729  cd sele-docker/
+ 1730  ll
+ 1731  docker images
+ 1732  cd ..
+ 1733  ll
+ 1734  cd ..
+ 1735  ll
+ 1736  cd docker-selenium/
+ 1737  ll
+ 1738  cd docker-selenium/
+ 1739  ll
+ 1740  cd ..
+ 1741  ll
+ 1742  cd sele-docker/
+ 1743  ll
+ 1744  docker images
+ 1745  subl docker-compose
+ 1746  ll
+ 1747  subl docker-compose.yml
+ 1748  docker images
+ 1749  docker-compose up
+ 1750  docker ps -a 
+ 1751  docker rm sele-docker_*
+ 1752  docker rm sele-docker_firefox_1 sele-docker_chrome_1 sele-docker_hub_1 
+ 1753  docker ps -a 
+ 1754  docker images
+ 1755  free -m
+ 1756  free -g
+ 1757  df -h 
+ 1758  docker ps -a 
+ 1759  docker pull selenium/node-chrome:3.14
+ 1760  docker pull selenium/node-chrome:3.141.59
+ 1761  docker images
+ 1762  docker-compose up
+ 1763  ll
+ 1764  docker-compose up
+ 1765  ifcong
+ 1766  ifconfig
+ 1767  curl -s http://localhost:4444/wd/hub/status
+ 1768  curl -s http://localhost:4444/wd/hub/status | grep .ready
+ 1769  curl -s http://localhost:4444/wd/hub/status | grep .ready.true
+ 1770  curl -s http://localhost:4444/wd/hub/status | grep .value
+ 1771  curl -s http://localhost:4444/wd/hub/status | grep .value.ready
+ 1772  curl -s http://localhost:4444/wd/hub/status | jq 
+ 1773  apt install jq
+ 1774  curl -s http://localhost:4444/wd/hub/status | jq 
+ 1775  curl -s http://localhost:4444/wd/hub/status | jq .value
+ 1776  curl -s http://localhost:4444/wd/hub/status | jq .value.ready
+ 1777  jq
+ 1778  curl -s http://localhost:4444/wd/hub/status | jq -r .value.ready
+ 1779  docker images
+ 1780  docker ps -a
+ 1781  docker images
+ 1782  docker run -it openjdk:8u275-jre 
+ 1783  ll
+ 1784  docker ps -a 
+ 1785  docker run -it ksashoeb/docker-selenium
+ 1786  docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+

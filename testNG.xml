@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Telecom">
+    <test name="Create Customer">
+        <classes>
+            <class name="com.telecom.tests.AddCustomerTest"/>
+        </classes>
+    </test>
+    
+    <test name="Add Tariff">
+        <classes>
+            <class name="com.telecom.tests.AddTariffPlan"/>
+        </classes>
+    </test>
+   
+</suite>
