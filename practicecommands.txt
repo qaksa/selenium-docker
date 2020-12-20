@@ -1,0 +1,14 @@
+apt update
+apt --assume-yes install jq
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
+
+docker run -it --entrypoint=/bin/sh -v/home/shoeb/Documents/docker-selenium/sele-docker/home/shoeb/Documents/docker-selenium/sele-docker/output:test-output ksashoeb/docker-selenium
+
+
+docker run -e HUB_HOST=172.19.0.1 ksashoeb/docker-selenium
+
+docker run -it ksashoeb/docker-selenium
+
+docker run -it --entrypoint=/bin/sh ksashoeb/docker-selenium
+
+curl -s http://localhost:4444/wd/hub/status | jq .value.ready
