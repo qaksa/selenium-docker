@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Jar') {
             agent {
-                lion {
+                docker {
                     image 'maven:3.5.3-alpine'
                     args '-v $HOME/.m2:/root/.m2'
                 }
@@ -14,15 +14,15 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                 script {
-                	app = lion.build("ksashoeb/selenium-docker")
+                script {
+                	app = docker.build("ksashoeb/selenium-docker")
                 }
             }
         }
         stage('Push Image') {
             steps {
                 script {
-			        lion.withRegistry('https://registry.hub.docker.com', 'DockerHub') {
+			        docker.withRegistry('https://registry.hub.docker.com', 'DockerHub') {
 			        	app.push("${BUILD_NUMBER}")
 			            app.push("latest")
 			        }
