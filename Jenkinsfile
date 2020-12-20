@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Jar') {
             agent {
-                docker1 {
+                none {
                     image 'maven:3.5.3-alpine'
                     args '-v $HOME/.m2:/root/.m2'
                 }
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                script {
+                none {
                 	app = docker.build("ksashoeb/docker-selenium")
                 }
             }
